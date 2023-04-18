@@ -1,0 +1,75 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+}
+p{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: large;
+    margin-top: 1%;
+    width: 800px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 360px;
+    margin-bottom: 3%;
+}
+h2{
+    margin-top: 3%;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: x-large;
+}
+h3{
+    margin-top: 3%;
+    margin-left: 400px;
+    font-family: "Anton", sans-serif;
+    font-size: x-large;
+}
+footer{
+    font-family: "Anton", sans-serif;
+    margin-top: 2%;
+    text-align: center;
+}
+#img1{
+    width: 400px;
+    margin-left: 90px;
+    border-radius: 20px;
+margin-top: 3%;
+border: 2px solid black;
+margin-bottom: 3%;
+}
+#img2{
+    border: 2px solid black;
+    border-radius: 20px;
+width: 400px;
+margin-top: 3%;
+height: 400px;
+margin-left: 8px;
+margin-bottom: 3%;
+}
+#img3{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 3%;
+width: 400px;
+height: 400px;
+margin-left: 8px;
+margin-bottom: 3%;
+}
+#s3{
+    border: 5px solid black;
+    border-radius: 60px;
+    margin-top: 5%;
+    width: 1400px;
+    margin: auto;
+}
+button{
+    margin-top: 3%;
+    margin-left: 48%;
+}
