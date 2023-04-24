@@ -74,3 +74,8 @@ button{
     margin-top: 3%;
     margin-left: 48%;
 }
+#d1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
