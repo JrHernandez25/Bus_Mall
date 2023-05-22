@@ -17,25 +17,25 @@ function Image (name, image) {
 
 Image.all = [];
 
-Image.all.push (new Image('bag', './Img/bag.jpg'));
-Image.all.push (new Image('banana', './Img/banana.jpg'));
-Image.all.push (new Image('bathroom', './Img/bathroom.jpg'));
-Image.all.push (new Image('boots', './Img/boots.jpg'));
-Image.all.push (new Image('breakfast', './Img/breakfast.jpg'));
-Image.all.push (new Image('bubblegum', './Img/bubblegum.jpg'));
-Image.all.push (new Image('chair', './Img/chair.jpg'));
-Image.all.push (new Image('cthulhu', './Img/cthulhu.jpg'));
-Image.all.push (new Image('dog-duck', './Img/dog-duck.jpg'));
-Image.all.push (new Image('dragon', './Img/dragon.jpg'));
-Image.all.push (new Image('pen', './Img/pen.jpg'));
-Image.all.push (new Image('pet-sweep', './Img/pet-sweep.jpg'));
-Image.all.push (new Image('scissors', './Img/scissors.jpg'));
-Image.all.push (new Image('shark', './Img/shark.jpg'));
-Image.all.push (new Image('sweep', './Img/sweep.png'));
-Image.all.push (new Image('tauntaun', './Img/tauntaun.jpg'));
-Image.all.push (new Image('unicorn', './Img/unicorn.jpg'));
-Image.all.push (new Image('water-can', './Img/water-can.jpg'));
-Image.all.push (new Image('wine-glass', './Img/wine-glass.jpg'));
+Image.all.push (new Image('Bag', './Img/bag.jpg'));
+Image.all.push (new Image('Banana', './Img/banana.jpg'));
+Image.all.push (new Image('Bathroom', './Img/bathroom.jpg'));
+Image.all.push (new Image('Boots', './Img/boots.jpg'));
+Image.all.push (new Image('Breakfast', './Img/breakfast.jpg'));
+Image.all.push (new Image('Bubblegum', './Img/bubblegum.jpg'));
+Image.all.push (new Image('Chair', './Img/chair.jpg'));
+Image.all.push (new Image('Cthulhu', './Img/cthulhu.jpg'));
+Image.all.push (new Image('Dog-duck', './Img/dog-duck.jpg'));
+Image.all.push (new Image('Dragon', './Img/dragon.jpg'));
+Image.all.push (new Image('Pen', './Img/pen.jpg'));
+Image.all.push (new Image('Pet-Sweep', './Img/pet-sweep.jpg'));
+Image.all.push (new Image('Scissors', './Img/scissors.jpg'));
+Image.all.push (new Image('Shark', './Img/shark.jpg'));
+Image.all.push (new Image('Sweep', './Img/sweep.png'));
+Image.all.push (new Image('Tauntaun', './Img/tauntaun.jpg'));
+Image.all.push (new Image('Unicorn', './Img/unicorn.jpg'));
+Image.all.push (new Image('Water-can', './Img/water-can.jpg'));
+Image.all.push (new Image('Wine-glass', './Img/wine-glass.jpg'));
 
 
 
@@ -104,14 +104,17 @@ function handleClick(e){
     } 
     getThreeImages(); 
     if (count === 25){
-        removeImages();
-        document.write('<h1>The test is over now</h1>');
+        //removeImages();
+        window.location.href = 'results.html';
         console.log(Image.all);
     }
     putArrayInStorage();
 };
 
-
+function Showdata(){
+    let hidebutton = getElementById('')
+    let showbutton = getElementById("")
+}
 
 ImageContainer.addEventListener('click', handleClick)
 console.log(Image);

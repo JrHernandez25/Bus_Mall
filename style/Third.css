@@ -49,3 +49,14 @@ button{
     margin-top: 5%;
     margin-left: 48%;
 }
+table{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+tr{
+    border: solid black 3px;
+}
+td{
+    border: solid black 3px;
+}
